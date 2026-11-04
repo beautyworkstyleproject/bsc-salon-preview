@@ -8,4 +8,10 @@
 .survey-footer h2{font:700 21px/1.5 serif;margin:0 0 14px;color:#f9f4e8}
 .survey-footer section p{max-width:860px;font-size:15px}
 .form-shell>.eyebrow{margin-top:8px}
+.form-intro p{margin:0 0 12px}
+.form-intro ul{margin:8px 0 20px;padding-left:1.5em}
+.form-intro li{padding-left:.2em;margin:6px 0}
+.form-intro li::marker{color:#826437}
+.form-intro ul+p{margin-top:24px}
+.form-intro ul:last-child{margin-bottom:0}
 @media(max-width:650px){.survey-footer{padding:36px 20px 48px}.survey-footer-inner{grid-template-columns:1fr;gap:22px}.survey-footer section{grid-column:1}.survey-footer nav{display:grid;gap:8px}.survey-footer-brand{font-size:21px}.survey-footer-brand span{display:block}}
